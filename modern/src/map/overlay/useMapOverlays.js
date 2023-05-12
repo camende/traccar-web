@@ -29,12 +29,6 @@ export default () => {
       available: true,
     },
     {
-      id: 'openRaiwayMap',
-      title: t('mapOpenRaiwayMap'),
-      source: sourceCustom(['https://tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png']),
-      available: true,
-    },
-    {
       id: 'openWeatherClouds',
       title: t('mapOpenWeatherClouds'),
       source: sourceOpenWeather('clouds_new', openWeatherKey),
@@ -97,6 +91,30 @@ export default () => {
       title: t('mapOverlayCustom'),
       source: sourceCustom(customMapOverlay),
       available: !!customMapOverlay,
+    },
+    {
+      id: 'lifeguardStations',
+      title: t('mapLifeguardStations'),
+      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?version=1.1.0&LAYERS=lgstations']),
+      available: true,
+    },
+    {
+      id: 'knrmStations',
+      title: t('mapKnrmStations'),
+      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?version=1.1.0&LAYERS=knrmstations']),
+      available: true,
+    },
+    {
+      id: 'beachPolesLayer',
+      title: t('mapBeachPoles'),
+      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?version=1.1.0&LAYERS=strandpalen']),
+      available: true,
+    },
+    {
+      id: 'ambulanceTransferPlaces',
+      title: t('mapAmbulanceTransferPlaces'),
+      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?Service=WMS&Version=1.1.0&Layers=thetrackingsolution:AOP&Request=GetMap&Tiled=true&TilesOrigin={x},{y}&BBox={bbox-epsg-3857}&Width=256&Height=256&Format=image/png&Transparent=true&srs=EPSG:4326']),
+      available: true,
     },
   ];
 };
