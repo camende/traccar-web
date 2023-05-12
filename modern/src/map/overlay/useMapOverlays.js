@@ -101,19 +101,19 @@ export default () => {
     {
       id: 'lifeguardStations',
       title: t('mapLifeguardStations'),
-      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?version=1.1.0&LAYERS=lgstations']),
+      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?version=1.1.0&LAYERS=Reddingsposten']),
       available: true,
     },
     {
       id: 'knrmStations',
       title: t('mapKnrmStations'),
-      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?version=1.1.0&LAYERS=knrmstations']),
+      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?version=1.1.0&LAYERS=KNRM_stations']),
       available: true,
     },
     {
       id: 'beachPolesLayer',
       title: t('mapBeachPoles'),
-      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?version=1.1.0&LAYERS=strandpalen']),
+      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?version=1.1.0&LAYERS=Strandpalen']),
       available: true,
     },
     {

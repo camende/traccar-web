@@ -5,7 +5,7 @@ import useMapOverlays from './useMapOverlays';
 
 const MapOverlay = () => {
   const mapOverlays = useMapOverlays();
-  const activeMapOverlays = useAttributePreference('activeMapOverlays');
+  const activeMapOverlays = useAttributePreference('activeMapOverlays') || [];
   const availableActiveMapOverlays = mapOverlays.filter((overlay) => overlay.available && activeMapOverlays.includes(overlay.id));
 
   useEffect(() => {
