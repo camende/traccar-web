@@ -29,10 +29,10 @@ export default () => {
       available: true,
     },
     {
-     id: 'openRaiwayMap',
-     title: t('mapOpenRaiwayMap'),
-     source: sourceCustom(['https://tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png']),
-     available: true,
+      id: 'openRaiwayMap',
+      title: t('mapOpenRaiwayMap'),
+      source: sourceCustom(['https://tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png']),
+      available: true,
     },
     {
       id: 'openWeatherClouds',
