@@ -119,7 +119,7 @@ export default () => {
     {
       id: 'ambulanceTransferPlaces',
       title: t('mapAmbulanceTransferPlaces'),
-      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?Service=WMS&Version=1.1.0&Layers=thetrackingsolution:AOP&Request=GetMap&Tiled=true&TilesOrigin={x},{y}&BBox={bbox-epsg-3857}&Width=256&Height=256&Format=image/png&Transparent=true&srs=EPSG:4326']),
+      source: sourceCustom(['https://geoserver.eventtracking.nl/geoserver/thetrackingsolution/wms?Service=WMS&Version=1.1.0&Layers=thetrackingsolution:AOP&Request=GetMap&Tiled=true&TilesOrigin={x},{y}&BBox={bbox-epsg-3857}&Width=256&Height=256&Format=image/png&Transparent=true&srs=EPSG:3857']),
       available: true,
     },
   ];
