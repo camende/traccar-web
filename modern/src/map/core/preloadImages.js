@@ -25,6 +25,15 @@ import trolleybusSvg from '../../resources/images/icon/trolleybus.svg';
 import truckSvg from '../../resources/images/icon/truck.svg';
 import vanSvg from '../../resources/images/icon/van.svg';
 import rwcSvg from '../../resources/images/icon/rwc.svg';
+import rwsSvg from '../../resources/images/icon/rws.svg';
+import strandjeepSvg from '../../resources/images/icon/strandjeep.svg';
+import lifeguardSvg from '../../resources/images/icon/lifeguard.svg';
+import vletSvg from '../../resources/images/icon/vlet.svg';
+import ribrbSvg from '../../resources/images/icon/ribrb.svg';
+import atvrbSvg from '../../resources/images/icon/atvrb.svg';
+import bicyclerbSvg from '../../resources/images/icon/bicyclerb.svg';
+import tinnSvg from '../../resources/images/icon/tinn.svg';
+import mobSvg from '../../resources/images/icon/mob.svg';
 
 export const mapIcons = {
   animal: animalSvg,
@@ -49,6 +58,15 @@ export const mapIcons = {
   truck: truckSvg,
   van: vanSvg,
   rwc: rwcSvg,
+  rws: rwsSvg,
+  strandjeep: strandjeepSvg,
+  lifeguard: lifeguardSvg,
+  vlet: vletSvg,
+  ribrb: ribrbSvg,
+  atvrb: atvrbSvg,
+  bicyclerb: bicyclerbSvg,
+  tinn: tinnSvg,
+  mob: mobSvg,
 };
 
 export const mapIconKey = (category) => (mapIcons.hasOwnProperty(category) ? category : 'default');
