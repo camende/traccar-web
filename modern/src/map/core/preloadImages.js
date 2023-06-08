@@ -34,6 +34,19 @@ import atvrbSvg from '../../resources/images/icon/atvrb.svg';
 import bicyclerbSvg from '../../resources/images/icon/bicyclerb.svg';
 import tinnSvg from '../../resources/images/icon/tinn.svg';
 import mobSvg from '../../resources/images/icon/mob.svg';
+import ribSvg from '../../resources/images/icon/rib.svg';
+import khvSvg from '../../resources/images/icon/khv.svg';
+import valentijnSvg from '../../resources/images/icon/valentijn.svg';
+import arievisserSvg from '../../resources/images/icon/arievisser.svg';
+import johannesfrederikSvg from '../../resources/images/icon/johannesfrederik.svg';
+import nh1816Svg from '../../resources/images/icon/nh1816.svg';
+import nicolaasSvg from '../../resources/images/icon/nicolaas.svg';
+import floatSvg from '../../resources/images/icon/float.svg';
+import atlanticSvg from '../../resources/images/icon/atlantic.svg';
+import medicSvg from '../../resources/images/icon/medic.svg';
+import policeSvg from '../../resources/images/icon/police.svg';
+import fireSvg from '../../resources/images/icon/fire.svg';
+import quadSvg from '../../resources/images/icon/quad.svg';
 
 export const mapIcons = {
   animal: animalSvg,
@@ -67,6 +80,20 @@ export const mapIcons = {
   bicyclerb: bicyclerbSvg,
   tinn: tinnSvg,
   mob: mobSvg,
+  rib: ribSvg,
+  khv: khvSvg,
+  valentijn: valentijnSvg,
+  arievisser: arievisserSvg,
+  johannesfrederik: johannesfrederikSvg,
+  nh1816: nh1816Svg,
+  nicolaas: nicolaasSvg,
+  float: floatSvg,
+  atlantic: atlanticSvg,
+  medic: medicSvg,
+  police: policeSvg,
+  fire: fireSvg,
+  quad: quadSvg,
+
 };
 
 export const mapIconKey = (category) => (mapIcons.hasOwnProperty(category) ? category : 'default');
